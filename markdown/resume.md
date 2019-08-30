@@ -1,14 +1,15 @@
 ---
 papersize: A4
 colorlinks: true
-bibliography: bib/sample.bib
-csl: bib/aps-doi.csl
+bibliography: bib/papers.bib
+csl: bib/aps-doi-cv.csl
 link-citations: true
 nocite: |
     @*
 ---
 
-# Johnny Coder
+# Carmelo Mordini
+
 
 * * *
 
@@ -18,13 +19,29 @@ nocite: |
 
 * * *
 
+## About
+<i class="fa fa-map-marker"></i>
+: Postdoc researcher at the [BEC Center](http://bec.science.unitn.it/) in Trento.
+
+<i class="fa fa-linkedin"></i>
+: <https://www.linkedin.com/in/carmelo-mordini/>
+
+<i class="fa fa-github"></i>
+: <https://github.com/carmelom>
+
+<i class="fa fa-envelope"></i>
+: [carmelo.mordini@unitn.it](mailto:carmelo.mordini@unitn.it)
+
+
 ## Education
 
 2010-2014 (expected)
 :   **PhD, Computer Science**; Awesome University (MyTown)
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+     *Thesis title: Deep Learning Approaches to the Self-Awesomeness
+      Estimation Problem*
+
+     Grad date: alnd
 
 2007-2010
 :   **BSc, Computer Science and Electrical Engineering**; University of
@@ -34,15 +51,14 @@ nocite: |
 
 ## Publications
 
-::: {#refs}
-:::
+<div id="refs">
+</div>
 
 ## Experience
 
 a date
-:   specialties
-    even
-    more
+: specialties even
+: sonething else
 
 **Your Most Recent Work Experience:**
 

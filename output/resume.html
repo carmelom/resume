@@ -15,113 +15,97 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
   <style type="text/css">
-  /*
-   * Copyright 2019 Carmelo Mordini <carmelo.mordini@gmail.com>
-   *
-   * CSS for making a resume with pandoc. Inspired by moderncv.
-   * Derived form https://github.com/chmduquesne/resume/blob/master/style.css
-   *
-   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
-   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
-   */
-  
-  /* Whole document */
-  body {
+  @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"; 
+    body {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       max-width: 800px;
       margin: auto;
-      background: #FFFFFF;
-      padding: 10px 10px 10px 10px;
-  }
+      padding: 10px; }
   
-  /* Title of the resume */
-  h1 {
-      font-size: 55px;
-      color: #757575;
-      text-align:center;
-      margin-bottom:15px;
-  }
-  /* h1:hover {
-      background-color: #757575;
-      color: #FFFFFF;
-      text-shadow: 1px 1px 1px #333;
-  } */
+      h1 {
+        font-size: 55px;
+        color: #757575;
+        text-align: center;
+        margin-bottom: 15px; }
   
-  /* Titles of categories */
-  h2 {
-      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
-      color: #01579b;
-  }
-  /* There is a bar just before each category */
-  h2:before {
-      content: "";
-      display: inline-block;
-      margin-right:1%;
-      width: 16%;
-      height: 10px;
-      /* This is called "rulecolor" in the ConTeXt stylesheet. */
-      background-color: #5eb8ff;
-  }
-  /* h2:hover {
-      background-color: #397249;
-      color: #FFFFFF;
-      text-shadow: 1px 1px 1px #333;
-  } */
+        h2 {
+          color: #01579b; }
   
-  /* Definitions */
-  dt {
-      float: left;
-      clear: left;
-      width: 17%;
-      /*font-weight: bold;*/
-  }
-  dd {
-      margin-left: 17%;
-  }
-  p {
-      margin-top:0;
-      margin-bottom:7px;
-  }
+          h2:before {
+            content: "";
+            display: inline-block;
+            margin-right: 1%;
+            width: 14%;
+            height: 10px;
+            background-color: #5eb8ff; }
   
-  /* Blockquotes */
-  blockquote {
-      text-align: center
-  }
+            dl {
+              line-height: 1.3; }
   
-  /* Links */
-  a {
-      text-decoration: none;
-      color: #01579b;
-  }
-  /* a:hover, a:active {
-      background-color: #397249;
-      color: #FFFFFF;
-      text-decoration: none;
-      text-shadow: 1px 1px 1px #333;
-  } */
+              dt {
+                float: left;
+                clear: left;
+                width: 13%;
+                text-align: right; }
   
-  /* Horizontal separators */
-  hr {
-      color: #A6A6A6;
-  }
+                dd {
+                  margin-left: 15%; }
   
-  table {
-      width: 100%;
-  }
+                  p {
+                    margin-top: 0;
+                    margin-bottom: 7px; }
+  
+                    #refs p {
+                      margin-left: 15%;
+                      line-height: 1.3; }
+  
+                      blockquote {
+                        text-align: center; }
+  
+                        a {
+                          text-decoration: none;
+                          color: #01579b; }
+  
+                          hr {
+                            color: #cdcdcd; }
+  
+                            table {
+                              width: 100%; }
+  
+                              .fa {
+                                font-size: 1em;
+                                color: #01579b; }
+  
   </style>
 </head>
 <body>
-<h1 id="johnny-coder">Johnny Coder</h1>
+<h1 id="carmelo-mordini">Carmelo Mordini</h1>
 <hr />
 <blockquote>
 <p>In this style, the resume starts with a blockquote, where you can briefly list your specialties, or include a salient quote. Ending a line with a backslash forces a line break.</p>
 </blockquote>
 <hr />
+<h2 id="about">About</h2>
+<dl>
+<dt><i class="fa fa-map-marker"></i></dt>
+<dd>Postdoc researcher at the <a href="http://bec.science.unitn.it/">BEC Center</a> in Trento.
+</dd>
+<dt><i class="fa fa-linkedin"></i></dt>
+<dd><a href="https://www.linkedin.com/in/carmelo-mordini/" class="uri">https://www.linkedin.com/in/carmelo-mordini/</a>
+</dd>
+<dt><i class="fa fa-github"></i></dt>
+<dd><a href="https://github.com/carmelom" class="uri">https://github.com/carmelom</a>
+</dd>
+<dt><i class="fa fa-envelope"></i></dt>
+<dd><a href="mailto:carmelo.mordini@unitn.it">carmelo.mordini@unitn.it</a>
+</dd>
+</dl>
 <h2 id="education">Education</h2>
 <dl>
 <dt>2010-2014 (expected)</dt>
 <dd><p><strong>PhD, Computer Science</strong>; Awesome University (MyTown)</p>
 <p><em>Thesis title: Deep Learning Approaches to the Self-Awesomeness Estimation Problem</em></p>
+<p>Grad date: alnd</p>
 </dd>
 <dt>2007-2010</dt>
 <dd><p><strong>BSc, Computer Science and Electrical Engineering</strong>; University of HomeTown (HomeTown)</p>
@@ -130,26 +114,25 @@
 </dl>
 <h2 id="publications">Publications</h2>
 <div id="refs" role="doc-bibliography">
-<div id="ref-smit54">
-<p>[1] J. G. Smith and H. K. Weston, J. Geophys. Res. <strong>2</strong>, 14 (1954).</p>
+<div id="ref-FavaPRA2018">
+<p>E. Fava, T. Bienaimé, C. Mordini, G. Colzi, C. Qu, S. Stringari, G. Lamporesi, and G. Ferrari; Phys. Rev. Lett. <strong>120</strong>, 170401 (2018), <a href="https://doi.org/10.1103/PhysRevLett.120.170401">10.1103/PhysRevLett.120.170401</a>.</p>
 </div>
-<div id="ref-colu92">
-<p>[2] C. Columbus, <em>How I Discovered America</em> (Hispanic Press, Barcelona, 1492).</p>
+<div id="ref-ColziPRA2018">
+<p>G. Colzi, E. Fava, M. Barbiero, C. Mordini, G. Lamporesi, and G. Ferrari; Phys. Rev. A <strong>97</strong>, 053625 (2018), <a href="https://doi.org/10.1103/PhysRevA.97.053625">10.1103/PhysRevA.97.053625</a>.</p>
 </div>
-<div id="ref-gree00">
-<p>[3] R. J. Green, U. P. Fred, and W. P. Norbert, Psych. Today <strong>46</strong>, 345 (1900).</p>
+<div id="ref-Dalfovo2018">
+<p>F. Dalfovo, R. N. Bisset, C. Mordini, G. Lamporesi, and G. Ferrari; J. Exp. Theor. Phys. <strong>127</strong>, (2018), <a href="https://doi.org/10.1134/S1063776118110018">10.1134/S1063776118110018</a>.</p>
 </div>
-<div id="ref-phil99">
-<p>[4] T. P. Phillips, J. Oddball Res. <strong>98</strong>, 1000 (1999).</p>
-</div>
-<div id="ref-jame76">
-<p>[5] K. James, G. Harris Jr., and W. Wollops, Revol. Tracts <strong>32</strong>, 34 (1776).</p>
+<div id="ref-BienaimePRA2016">
+<p>T. Bienaimé, E. Fava, G. Colzi, C. Mordini, S. Serafini, C. Qu, S. Stringari, G. Lamporesi, and G. Ferrari; Phys. Rev. A <strong>94</strong>, 063652 (2016), <a href="https://doi.org/10.1103/PhysRevA.94.063652">10.1103/PhysRevA.94.063652</a>.</p>
 </div>
 </div>
 <h2 id="experience">Experience</h2>
 <dl>
 <dt>a date</dt>
-<dd>specialties even more
+<dd>specialties even
+</dd>
+<dd>sonething else
 </dd>
 </dl>
 <p><strong>Your Most Recent Work Experience:</strong></p>
