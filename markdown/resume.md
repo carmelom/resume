@@ -13,9 +13,7 @@ nocite: |
 
 * * *
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  
 
 * * *
 
@@ -32,100 +30,103 @@ nocite: |
 <i class="fa fa-envelope"></i>
 : [carmelo.mordini@unitn.it](mailto:carmelo.mordini@unitn.it)
 
-
 ## Education
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2015 -- 2019
+:   **PhD in Physics** -- University of Trento \
+    Date: 21/06/2019
 
-     *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-      Estimation Problem*
+2010 -- 2015
+:   **Diploma di Licenza** -- Scuola Normale Superiore, Pisa \
+    Date: 19/12/2016
 
-     Grad date: alnd
+2013 -- 2015
+:   **Master degree in Physics** -- University of Pisa \
+    Date: 21/10/2015
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
+2013 -- 2015
+:   **Bachelor degree in Physics** -- University of Pisa \
+    Date: 25/07/2013
 
 ## Publications
 
-<div id="refs">
-</div>
+:::{#refs}
+:::
 
-## Experience
+## Conferences and seminars
+15/07/2019
+:   **Workshop on Quantum Mixtures** – University of Trento \
+    Organizers: Franco Dalfovo, Stefano Giorgini, Alessio Recati (Università di Trento), Christophe Salomon (LKB, Paris), Tin-Lun Ho  (Ohio State University) \
+    <http://bec.science.unitn.it/qmix2019/>
 
-a date
-: specialties even
-: sonething else
+22/07/2018
+:   **ICAP 2018 -- International Conference on Atomic Physics** -- University of Barcellona, Spain \
+    Organizers: University of Barcellona, ICFO -- Institute for Photonic Sciences \
+    <http://icap2018.eu>
 
-**Your Most Recent Work Experience:**
+31/08/2016
+:   **BEC2016 – Quantum gases and quantum coherence** – University of Salerno, Italy \
+    Organizers: F. Chevy (ENS, Paris, Fr), R. Citro (UniSa, Salerno, Italy), G. Lamporesi (INO-CNR
+    BEC, Italy) \
+    <http://bec2016.physics.unisa.it/>
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+21/02/2016
+:   **International Conference on Quantum Optics 2016** – Obergurgl, Tirol (Austria) \
+    Organizers: Hanns-Christoph Nägerl (University of Innsbruck) \
+    <https://www.uibk.ac.at/th-physik/obergurgl2016/>
 
--   First item
+07/07/2015
+:   **Introductory Course on Ultracold Quantum Gases** – Institute of Quantum Optics and Quantum Information (IQOQI), Innsbruck \
+    Organizers: Francesca Ferlaino, Rudolph Grimm (University of Innsbruck) \
+    <https://www.uibk.ac.at/sp-physik/events/introductory_course_ultracold_quantum_gases_2015/index.html.en>
 
--   Item with [link](http://www.example.com). Links will work both in
-    the html and pdf versions.
+22/06/2015
+:   **Cold atoms meet High Energy Physics** – ECT*, Villazzano, Trento \
+    Organizers: Sandro Stringari (Università di Trento) \
+    <http://www.ectstar.eu/node/1292>
 
-**That Other Job You Had**
+12/01/2015
+:   **International Winter School and Workshop on "Strongly correlated fluids of light and matter"** – ECT*, Villazzano, Trento \
+    Organizers: Iacopo Carusotto (Università di Trento) \
+    <http://www.ectstar.eu/node/1217>
 
-Also with a short description.
+## Teaching Experience
+
+Sept 2019 \ Mar 2020
+:   **Teaching assistant -- Laboratorio di Fisica II** \
+    Department of Physics \
+    Professor: W. Weber
+
+Sept 2016 \ Giu 2017
+:   **Teaching assistant -- Fisica I** \
+    Department of Physics \
+    Professor: F. Dalfovo
+
+Mar 2016 \ Sept 2016
+:   **Teaching assistant -- Fisica I** \
+    Department of Civil, Environmental and Mechanical Engineering (DICAM) \
+    Professors: G. Monaco, F. Pederiva
+
+
 
 ## Technical Experience
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+Extended technical experience developed as an experimental physicist of cold atoms
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+Laser systems
+:   some blah blah. I should speak thoroughly about it.
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+Electronics
+:   Analog and digital circuits; RF antennas; microcontrollers; FPGA programming.
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+Programming
+:   Extended experience in Python for data acquisition, GUI programming, data analysis. \
+    Linux operating systems \
+    LabVIEW
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link][ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file).
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-## Extra Section, Call it Whatever You Want
-
--   Human Languages:
-
-    -   English (native speaker)
-    -   ???
-    -   This is what a nested list looks like.
-
--   Random tidbit
-
--   Other sort of impressive-sounding thing you did
+Languages
+:   Italian (mother tongue), fluent english
 
 * * *
 
-> <mailto:email@example.com> • +00 (0)00 000 0000 • XX years old\\
-> address - Mytown, Mycountry
+>

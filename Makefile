@@ -7,7 +7,8 @@ STYLE 	   =	style
 FILTERS = pandoc-citeproc
 PANDOC  = pandoc $(patsubst %,--filter %, $(FILTERS))
 
-SASS    = python bin/sass.py
+# SASS    = python bin/sass.py
+SASS = sass
 
 
 all: html pdf docx rtf
@@ -53,6 +54,8 @@ rtf: dir version
 
 sass:
 	$(SASS) $(STYLES_DIR)/$(STYLE).scss $(STYLES_DIR)/$(STYLE).css
+	sed -i -e "1s/^/<style type=\"text\/css\">\n /" -e "\$$s/\$$/ \n<\/style>/" $(STYLES_DIR)/$(STYLE).css
+
 
 
 dir:

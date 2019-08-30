@@ -1,63 +1,68 @@
 <style type="text/css">
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"; 
-  body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    max-width: 800px;
-    margin: auto;
-    padding: 10px; }
+ @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 10px; }
 
-    h1 {
-      font-size: 55px;
-      color: #757575;
-      text-align: center;
-      margin-bottom: 15px; }
+table {
+  width: 100%; }
 
-      h2 {
-        color: #01579b; }
+h1 {
+  font-size: 55px;
+  color: #757575;
+  text-align: center;
+  margin-bottom: 15px; }
 
-        h2:before {
-          content: "";
-          display: inline-block;
-          margin-right: 1%;
-          width: 14%;
-          height: 10px;
-          background-color: #5eb8ff; }
+h2 {
+  color: #01579b; }
 
-          dl {
-            line-height: 1.3; }
+h2:before {
+  content: "";
+  display: inline-block;
+  margin-right: 1%;
+  width: 14%;
+  height: 10px;
+  background-color: #5eb8ff; }
 
-            dt {
-              float: left;
-              clear: left;
-              width: 13%;
-              text-align: right; }
+dl {
+  line-height: 1.3; }
 
-              dd {
-                margin-left: 15%; }
+dt {
+  float: left;
+  clear: left;
+  width: 13%;
+  text-align: right;
+  color: #01579b; }
 
-                p {
-                  margin-top: 0;
-                  margin-bottom: 7px; }
+dd {
+  margin-left: 15%;
+  margin-bottom: 1em; }
 
-                  #refs p {
-                    margin-left: 15%;
-                    line-height: 1.3; }
+p {
+  margin-top: 0;
+  margin-bottom: 7px; }
 
-                    blockquote {
-                      text-align: center; }
+#refs p {
+  margin-left: 15%;
+  margin-bottom: 1em;
+  line-height: 1.3; }
 
-                      a {
-                        text-decoration: none;
-                        color: #01579b; }
+blockquote {
+  text-align: center; }
 
-                        hr {
-                          color: #cdcdcd; }
+a {
+  text-decoration: none;
+  color: #01579b; }
 
-                          table {
-                            width: 100%; }
+hr {
+  color: whitesmoke; }
 
-                            .fa {
-                              font-size: 1em;
-                              color: #01579b; }
+.fa {
+  font-size: 1.5em;
+  color: #01579b;
+  margin-top: -0.75em; }
 
+/*# sourceMappingURL=style.css.map */ 
 </style>
