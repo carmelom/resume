@@ -2,7 +2,7 @@ OUT_DIR    =	output
 IN_DIR     =	markdown
 STYLES_DIR =	styles
 
-STYLE 	   =	style
+STYLE 	   =	resume-style
 
 FILTERS = pandoc-citeproc
 PANDOC  = pandoc $(patsubst %,--filter %, $(FILTERS))
@@ -13,7 +13,7 @@ SASS = sass
 
 all: html pdf docx rtf
 
-html: dir sass
+html: dir 
 	for f in $(IN_DIR)/*.md; do \
 	FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 	echo $$FILE_NAME.html; \

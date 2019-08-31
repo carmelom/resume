@@ -2,7 +2,8 @@
  @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  max-width: 800px;
+  width: 210mm;
+  height: 296mm;
   margin: auto;
   padding: 10px; }
 
@@ -64,5 +65,5 @@ hr {
   color: #01579b;
   margin-top: -0.75em; }
 
-/*# sourceMappingURL=style.css.map */ 
+/*# sourceMappingURL=resume-style.css.map */ 
 </style>

@@ -1,6 +1,4 @@
 ---
-papersize: A4
-colorlinks: true
 bibliography: bib/papers.bib
 csl: bib/aps-doi-cv.csl
 link-citations: true
@@ -109,24 +107,5 @@ Mar 2016 \ Sept 2016
 
 
 
-## Technical Experience
-
-Extended technical experience developed as an experimental physicist of cold atoms
-
-Laser systems
-:   some blah blah. I should speak thoroughly about it.
-
-Electronics
-:   Analog and digital circuits; RF antennas; microcontrollers; FPGA programming.
-
-Programming
-:   Extended experience in Python for data acquisition, GUI programming, data analysis. \
-    Linux operating systems \
-    LabVIEW
-
-Languages
-:   Italian (mother tongue), fluent english
-
 * * *
-
 >

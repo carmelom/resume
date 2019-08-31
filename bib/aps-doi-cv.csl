@@ -46,6 +46,19 @@
       </else>
     </choose>
   </macro>
+  <macro name="yearmonth-date">
+    <choose>
+      <if variable="issued">
+        <date variable="issued">
+          <date-part name="year" suffix=" "/>
+          <date-part name="month"/>
+        </date>
+      </if>
+      <else>
+        <text term="no date" form="short"/>
+      </else>
+    </choose>
+  </macro>
   <macro name="day-date">
     <choose>
       <if variable="issued">
@@ -80,17 +93,17 @@
       </else>
     </choose>
   </macro>
-  <!-- <citation collapse="citation-number">
+  <citation collapse="citation-number">
     <sort>
       <key variable="citation-number"/>
     </sort>
     <layout delimiter="," prefix="&#160;[" suffix="]">
       <text variable="citation-number"/>
     </layout>
-  </citation> -->
+  </citation>
   <bibliography entry-spacing="0" second-field-align="flush">
       <sort>
-        <key macro="year-date" sort="descending"/>
+        <key macro="yearmonth-date" sort="descending"/>
       </sort>
     <layout suffix=".">
       <!-- <text variable="citation-number" prefix="[" suffix="]"/> -->
